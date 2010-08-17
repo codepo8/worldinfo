@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  font-family:calibri,sans-serif;
+  font-family: 'Neuton', serif;
+  font-size:16px;
+}
+html,body{
+  background:url(http://grin.hq.nasa.gov/IMAGES/MEDIUM/GPN-2000-001046.jpg) bottom center no-repeat #000;
+  color:#fff;
+}
+ul{
+  position:relative;
+  margin:1em 0;
+  padding:0;
+}
+ul li{
+  display:inline;
+  padding:0 .5em 0 0;
+}
+#azlists ul{
+  margin:.5em 0;
+  float:left;
+  width:10em;
+  display:none;
+}
+#azlists li{
+  padding:0;
+}
+#azlists ul.show{
+  display:block;
+}
+#container{
+  margin-left:12em;
+}
+img{
+  display:block;
+  margin:1em 0;
+  border:none;
+}
+p img{
+  display:inline;margin:0;
+}
+#list button{
+  border:none;
+  background:#369;
+  color:#fff;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  padding:2px 5px;
+  text-decoration:none;
+}
+#list button:hover,#list button:focus{
+  background:#fc6;
+  color:#fff;
+}
+#list #azlists button{
+  background:transparent;
+  color:#fff;
+  text-align:left;
+  display:block;
+  width:10em;
+}
+#list #azlists button:hover,#list #azlists button:focus{
+  background:#ccc;
+  color:#000;
+}
+#list{
+  position:relative;
+}
+#container p a{
+  display:inline;
+  color:#ffc;
+  text-decoration:underline;
+}
+#main{
+  margin:30px;
+  padding:2em;
+  min-height:900px;
+  position:relative;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  background:rgba(0,0,0,.5);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+}
+div.img{height:250px;}
+h1{
+  font-size:30px;
+  color:#0c0;
+  font-family: 'Yanone Kaffeesatz', serif;
+  font-size: 56px;
+  text-transform:uppercase;
+}
+h2{margin:0 0 .5em 0;padding:0;}
+#ft{
+  clear:both;
+  margin:3em 0 0 0;
+  font-size:10px;
+  text-align:right;
+}
+.load{
+  font-size:20px;
+  font-weight:bold;
+  color:#ffc;
+  margin:1em 0;
+}
+#ft a{
+  font-size:10px;
+  color:#000;
+}
