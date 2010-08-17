@@ -95,10 +95,11 @@ $(document).ready(function(){
       // navigation and we shift the "show" class from the last shown 
       // sub-menu to the current one
       if($(this).html().length==1){
-        $(current).removeClass('show');
-        $('#list'+$(this).html()).addClass('show');
+        $(current).removeClass('show').hide();
         current = $('#list'+$(this).html());
-
+        current.hide().addClass('show').show('medium');
+        $('#list'+$(this).html()+' button:first').focus();
+        
       // otherwise we call the showcountry function 
       } else {
         showcountry($(this));
